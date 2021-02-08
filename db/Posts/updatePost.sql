@@ -1,0 +1,1 @@
+UPDATE posts SET (title, img, post) = ($2, $3, $4) WHERE id = ($1); 

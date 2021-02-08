@@ -1,0 +1,102 @@
+
+
+/* ------------General Set-up--------------- */
+
+
+.app {
+  /* background-image: url(white-destressed-board-bg.jpg); */
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navLeader{
+  display: flex;
+  justify-content: center;
+}
+
+.footerLeader{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  /* min-height: 100vh; */
+  height: auto;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  /* min-height: 100vh; */
+  height: auto;
+  animation: transitionIn 2.5s;
+}
+
+/* -----------Fade In---------------- */
+body ,.navigationComponent{
+  animation: fadeIn 2.5s;
+}
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+::placeholder{
+  color:#2A324B;
+  opacity: .7;
+}
+
+:-ms-input-placeholder {
+  color:#2A324B;
+  opacity: .1;
+}
+
+::-ms-input-placeholder { 
+  color:#2A324B;
+  opacity: .1;
+}
+
+
+/* --------------------------------inputs---------------------- */
+input{
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f98c8894;
+  border-color: #f98c88;
+}
+
+input:focus {
+  outline: none !important;
+  border:1px solid #f98c8894;
+  box-shadow: 0 0 10px #000105;
+}
+
+input, select, :focus{
+  color:#2A324B;
+}
+
+input :placeholder-shown{
+  color:#2A324B;
+}
+
