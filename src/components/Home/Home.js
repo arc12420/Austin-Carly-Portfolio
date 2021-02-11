@@ -2,30 +2,17 @@
 
 // -------------------------------------DEPENDENCIES---------------------------------------
 import React, { Component } from "react";
-import axios from "axios";
 import "./Home.css";
 
 // -------------------------------------FUNCTIONALITY--------------------------------------
-class Home extends Component {
-  constructor() {
-    super();
-    this.state = {
-      newbook: []
-    };
-  }
-  
-  
-  
-  // -------------------------------------HANDELERS-------------------------------------------
-  
-  // -----------------------------------STRUCTURE---------------------------------------------
-  render() {
-    return (
-      <div className="home">
-        Home Page      
+function Home() {
+  return (
+    <main className="homeComponent">
+      <div className="MainBox">
+      
       </div>
-    );
-  }
+    </main>
+  );
 }
 
 export default Home;

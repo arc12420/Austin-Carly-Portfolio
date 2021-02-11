@@ -4,7 +4,7 @@
 
 
 .app {
-  /* background-image: url(white-destressed-board-bg.jpg); */
+  background-image: url(../src/Photos/bg.jpg);
   width: 100vw;
   min-height: 100vh;
   height: auto;

@@ -4,13 +4,9 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
-import { logoutUser, getUser } from "../../redux/reducer";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { RiLogoutBoxRLine } from "react-icons/ri";
 import NavHam from "./NavigationHamburger";
 import "./Navigation.css";
-import axios from "axios";
-import KLogo from "../../Logos/KKLogo-2.1-Clear.png";
 
 // -------------------------------------FUNCTIONALITY--------------------------------------
 class Nav extends Component {
@@ -22,16 +18,6 @@ class Nav extends Component {
   }
 
   // -------------------------------------FUNCTIONS-------------------------------------------
-  logout = () => {
-    axios
-      .get("/api/logout")
-      .then((res) => {
-        this.props.logoutUser();
-        this.props.history.push("/");
-      })
-      .catch((err) => console.log(err));
-  };
-
   // -------------------------------------HANDELERS-------------------------------------------
   handleCheck = (event) => {
     this.setState({ checkedN: event.target.checked });
@@ -43,14 +29,10 @@ class Nav extends Component {
 
   // -----------------------------------STRUCTURE---------------------------------------------
   render(props) {
-    // console.log(this.props);
-    // console.log(this.props.user);
-    // console.log(this.props.location.pathname);
-    console.log(this.state.checkedN);
     return (
       <nav className="navigationComponent">
-        <div className="KLogoBox">
-          <img src={KLogo} className="KLogo" alt="Logo" />
+        <div className="AustinLogoBox">
+          <div className="AustinLogo">Austin Carly</div>
         </div>
         {/* v------------------------------------------HAMBURGER/LOGOUT BUTTONS-------------------------------v */}
         <div className="hiddenButtons">
@@ -81,16 +63,6 @@ class Nav extends Component {
               </a>
             </li>
           </div>
-          {this.props.isLoggedIn === true ? (
-            <div className="logoutComp">
-              <div className="logoutBox" onClick={() => this.logout()}>
-                <div className="iconLogout">
-                  <RiLogoutBoxRLine />
-                </div>
-                logout
-              </div>
-            </div>
-          ) : null}
         </div>
         {/* v-----------------------------------------NAVIGATION BUTTONS-------------------------------v */}
         <div className="navButtons">
@@ -104,13 +76,13 @@ class Nav extends Component {
           </div>
           <div
             className={
-              this.props.location.pathname === "/Books"
+              this.props.location.pathname === "/Skills"
                 ? "selected"
                 : "navBooks"
             }
-            onClick={() => this.props.history.push("/Books")}
+            onClick={() => this.props.history.push("/Skills")}
           >
-            BOOKS
+            Skills
           </div>
           <div
             className={
@@ -140,6 +112,6 @@ class Nav extends Component {
 
 const mapStateToProps = (state) => state;
 
-export default connect(mapStateToProps, { logoutUser, getUser })(
+export default connect(mapStateToProps)(
   withRouter(Nav)
 );

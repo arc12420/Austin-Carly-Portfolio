@@ -1,1 +1,0 @@
-UPDATE books SET (title, img, descriptionp1, descriptionp2, urllink) = ($2, $3, $4, $5, $6) WHERE id = ($1); 

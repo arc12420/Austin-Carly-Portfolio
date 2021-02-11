@@ -1,0 +1,55 @@
+.iconsBox {
+  background-color: white;
+    color: Black;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 60px;
+    color: rgb(71, 71, 71);
+    margin-top: 50px;
+    opacity: .9; 
+}
+
+ul li {
+    height: 100px;
+    width: 100px;
+  }
+  
+  ul li a {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .iconFacebook {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .iconInstagram {
+    font-size: 70px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* --------------------------------------Effects---------------------------------- */
+  .iconFacebook :hover {
+    color: #202020;
+    cursor: pointer;
+    font-size: 70px;
+  }
+  
+  .iconInstagram :hover {
+    color: #202020;
+    cursor: pointer;
+    font-size: 80px;
+  }
+  
+  .iconPinterest :hover {
+    color: #202020;
+    cursor: pointer;
+    font-size: 80px;
+  }
+  

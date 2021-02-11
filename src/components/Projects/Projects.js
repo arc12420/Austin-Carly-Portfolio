@@ -2,17 +2,15 @@
 
 // -------------------------------------DEPENDENCIES---------------------------------------
 import React from "react";
-import { withRouter } from "react-router-dom";
 import "./Projects.css";
 
-// -------------------------------------FUNCTIONALITY--------------------------------------
 // -----------------------------------STRUCTURE---------------------------------------------
-function Projects(props) {
+function Projects() {
   return (
-    <div className="Projects">      
-    Projects Page
-    </div>
+    <main className="projectsComponent">
+      <div className="MainBox">Projects Page</div>
+    </main>
   );
 }
 
-export default withRouter(Projects);
+export default Projects;

@@ -12,6 +12,24 @@ code {
     monospace;
 }
 
+main {
+  min-height: 100vh;
+  height:auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.MainBox{
+  min-height: 100vh;
+  height:auto;
+  width: 80vw;
+  background-color: white;
+  opacity: .9;
+  border-radius: 7px;
+}
+
 @keyframes transitionIn {
   from {
       opacity: 0;
@@ -64,4 +82,25 @@ code {
     opacity: 0;
     transform: rotateX(-10deg)
     }
+}
+
+/* ------------------------------------------Icons--------------------------------- */
+
+li {
+  list-style-type: none;
+  height: 30%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
