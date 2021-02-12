@@ -21,13 +21,16 @@ main {
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
-.MainBox{
+.mainBox{
   min-height: 100vh;
   height:auto;
   width: 80vw;
   background-color: white;
   opacity: .9;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @keyframes transitionIn {

@@ -8,7 +8,7 @@ import "./Home.css";
 function Home() {
   return (
     <main className="homeComponent">
-      <div className="MainBox">
+      <div className="mainBox">
       
       </div>
     </main>

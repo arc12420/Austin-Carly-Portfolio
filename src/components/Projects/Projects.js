@@ -8,7 +8,7 @@ import "./Projects.css";
 function Projects() {
   return (
     <main className="projectsComponent">
-      <div className="MainBox">Projects Page</div>
+      <div className="mainBox">Projects Page</div>
     </main>
   );
 }

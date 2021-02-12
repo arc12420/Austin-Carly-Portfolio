@@ -3,9 +3,9 @@
 // -------------------------------------DEPENDENCIES---------------------------------------
 import React from "react";
 import "./Footer.css";
-import { SiFacebook } from "react-icons/si";
-import { AiFillInstagram } from "react-icons/ai";
-import { GrPinterest } from "react-icons/gr";
+import { SiGithub } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
+import { SiCodewars } from "react-icons/si";
 
 // -------------------------------------FUNCTIONALITY--------------------------------------
 // -----------------------------------STRUCTURE---------------------------------------------
@@ -14,27 +14,24 @@ function Home(props) {
     <footer>
       <ul className="iconsBox">
         <li>
-          <a
-            href="https://www.facebook.com/groups/1095939214157711/"
-            className="iconFacebook"
-          >
-            <SiFacebook />
+          <a href="https://github.com/arc12420" className="iconGithub">
+            <SiGithub />
           </a>
         </li>
         <li>
           <a
-            href="https://www.instagram.com/authorkortneykeisel/"
-            className="iconInstagram"
+            href="https://www.linkedin.com/in/austin-carly-21a58b1b4/"
+            className="iconLinkedIn"
           >
-            <AiFillInstagram />
+            <SiLinkedin />
           </a>
         </li>
         <li>
           <a
-            href="https://www.pinterest.com/kortneykeisel/"
+            href="https://www.codewars.com/users/ACARLY"
             className="iconPinterest"
           >
-            <GrPinterest />
+            <SiCodewars />
           </a>
         </li>
       </ul>

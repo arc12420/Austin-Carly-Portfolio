@@ -23,25 +23,25 @@ ul li {
     width: 100px;
   }
   
-  .iconFacebook {
+  .iconGithub {
     height: 100px;
     width: 100px;
   }
   
-  .iconInstagram {
+  .iconLinkedIn {
     font-size: 70px;
     height: 100px;
     width: 100px;
   }
   
   /* --------------------------------------Effects---------------------------------- */
-  .iconFacebook :hover {
+  .iconGithub :hover {
     color: #202020;
     cursor: pointer;
     font-size: 70px;
   }
   
-  .iconInstagram :hover {
+  .iconLinkedIn :hover {
     color: #202020;
     cursor: pointer;
     font-size: 80px;

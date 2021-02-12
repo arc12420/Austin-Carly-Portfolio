@@ -7,16 +7,38 @@
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    height: auto;
+    min-height: 90vh;
     width: 80vw;
     color: rgb(71, 71, 71);    
     margin-bottom: 20px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 2vw;
     text-transform: uppercase;
     font-weight: 600;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.austinLogoBox{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.austinLogo{
+    text-align: center;
+    color: white;
+    font-size: 7vh;
+    margin-bottom: 10%;
+}
+.austinLogoTitle{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
 }
 
 .navButtons{
@@ -34,16 +56,7 @@
     opacity: .9; 
 }
 
-/* .greySpace{
-    position: fixed;
-    right:0;
-    top:0;
-    z-index: 1;
-    height:100vh;
-    width:100vw;
-    background-color: rgb(59, 59, 59);
-    opacity:.5;
-} */
+
 .navHamTopContainer{
     animation: fadeIn 1s;
   }

@@ -18,7 +18,7 @@ import ExpressIcon from "../../Photos/images/Express.png";
 function Skills() {
   return (
     <main className="skillsComponent">
-      <div className="MainBox">
+      <div className="mainBox">
         {/* --------------------------------------------------SKILL ICONS----------------------------------------------- */}
         <div className="skillIconsMainBox">
           <div className="skillIconsBox">

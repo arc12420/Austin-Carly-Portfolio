@@ -1,0 +1,50 @@
+.aboutHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutTitle{
+    text-align: center;
+    font-size: 7vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutQuoteBox{
+    height:10vh;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    padding-top: 20px;
+}
+
+.aboutQuote{
+    vertical-align: normal;
+    text-align: center;
+    color: rgb(97, 96, 96);
+    font-style: italic;
+
+}
+
+.aboutImageBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+/* --------------------------------------------------------- */
+
+.aboutInfoBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.aboutInfo{
+    text-align: center;
+    width:80%;
+
+}

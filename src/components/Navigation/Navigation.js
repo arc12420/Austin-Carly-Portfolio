@@ -17,6 +17,13 @@ class Nav extends Component {
     };
   }
 
+  // scrollFunc = () => {
+    
+    // let Height = window.scrollY
+
+    // if(Height > 0) scrollY(10)
+  // }
+
   // -------------------------------------FUNCTIONS-------------------------------------------
   // -------------------------------------HANDELERS-------------------------------------------
   handleCheck = (event) => {
@@ -31,8 +38,9 @@ class Nav extends Component {
   render(props) {
     return (
       <nav className="navigationComponent">
-        <div className="AustinLogoBox">
-          <div className="AustinLogo">Austin Carly</div>
+        <div className="austinLogoBox">
+          <div className="austinLogo">Austin Carly</div>
+          <div className="austinLogoTitle">Web Developer</div>
         </div>
         {/* v------------------------------------------HAMBURGER/LOGOUT BUTTONS-------------------------------v */}
         <div className="hiddenButtons">
@@ -70,7 +78,7 @@ class Nav extends Component {
             className={
               this.props.location.pathname === "/" ? "selected" : "navHome"
             }
-            onClick={() => this.props.history.push("/")}
+            onClick={() => this.props.history.push("/") }
           >
             Home
           </div>
