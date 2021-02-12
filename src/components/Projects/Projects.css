@@ -1,0 +1,45 @@
+section{
+    height: 200px;
+    width: 100%;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------- */
+.authorKortneyKeisel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+}
+.theIvoryFoundation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+}
+.theBrood{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+}
+.andersonAuctionHouse{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+}
+
+.projectImage{
+    background-color: cadetblue;
+    width:50%
+}
+.projectDescription{
+    background-color: coral;
+    width:50%
+}
