@@ -1,32 +1,31 @@
-.skillIconsBox{
-    height:35vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    border-bottom: 10px double #464646;
+.skillIconsBox {
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  border-bottom: 10px double #464646;
 }
 
 .skillIconName {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    height: 15vh;
-    width: 15vw;
-    padding:5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  width: 15vw;
+  padding: 5px;
 }
 
-.skillIconBox{
-    height:60%;
-    width:auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.skillIconBox {
+  height: 60%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skillIcon {
@@ -44,4 +43,12 @@
 .skillIconNodeMailer {
   height: 50px;
   filter: grayscale(100%);
+}
+
+/* ----------------------------Calculator--------------------------------- */
+
+.skillsCalculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
